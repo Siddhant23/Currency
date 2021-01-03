@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtxt_amt"
+        style="@style/EditText"
+        android:layout_alignParentStart="true"
+        android:ellipsize="end"
+        android:hint="@string/hint_amt"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:minWidth="100dp"
+        android:text="1" />
+
+    <Spinner
+        android:id="@+id/spn_currencies"
+        style="@style/Spinner"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/edtxt_amt"
+        android:entries="@array/empty_list" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtxt_amt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_min"
+        android:layout_marginBottom="@dimen/margin_min"
+        android:text="@string/calculate" />
+</RelativeLayout>

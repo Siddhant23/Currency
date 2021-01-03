@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <stroke android:width="@dimen/border" android:color="@color/colorBorder" />
+            <padding android:bottom="@dimen/padding" android:left="@dimen/padding" android:right="@dimen/padding" android:top="@dimen/padding" />
+            <corners android:radius="@dimen/radius" />
+            <solid android:color="@color/colorEditText" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true">
+        <shape>
+
+            <stroke android:width="@dimen/border" android:color="@color/colorBorderTint" />
+            <padding android:bottom="@dimen/padding" android:left="@dimen/padding" android:right="@dimen/padding" android:top="@dimen/padding" />
+            <corners android:radius="@dimen/radius" />
+            <solid android:color="@color/colorEditText" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <stroke android:width="@dimen/border" android:color="@color/colorBorder" />
+            <padding android:bottom="@dimen/padding" android:left="@dimen/padding" android:right="@dimen/padding" android:top="@dimen/padding" />
+            <corners android:radius="@dimen/radius" />
+            <solid android:color="@color/colorEditText" />
+        </shape>
+    </item>
+</selector>

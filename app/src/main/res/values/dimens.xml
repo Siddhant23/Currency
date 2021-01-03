@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_min">8dp</dimen>
+    <dimen name="margin_med">16dp</dimen>
+    <dimen name="margin_max">32dp</dimen>
+    <dimen name="radius">4dp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="border">1dp</dimen>
+</resources>

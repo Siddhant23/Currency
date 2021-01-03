@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SidPayPayCurr</string>
+    <string name="calculate">Calculate</string>
+    <string name="hint_amt">Enter Amount</string>
+    <string name="empty_data">No Data</string>
+    <string name="progress">Please Wait</string>
+    <array name="empty_list">
+        <item>Empty List</item>
+    </array>
+</resources>
