@@ -1,4 +1,4 @@
-# PayPay
+# Currency Calculator
 
 ### Language    : Kotlin (Android Architecture Components -> JetPack)
 
